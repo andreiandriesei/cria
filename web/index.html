@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>JIRA Script Submission</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class='container'>
+        <h2>Submit JIRA Script Parameters</h2>
+        <form method='POST'>
+            <label for='instanceName'>Instance Name:</label>
+            <input type='text' name='instanceName' required>
+            <label for='desiredVersion'>Desired Version:</label>
+            <input type='text' name='desiredVersion' required>
+            <label for='secondPlatform'>Second Platform:</label>
+            <input type='text' name='secondPlatform' required>
+            <input type='submit' value='Submit'>
+        </form>
+    </div>
+</body>
+</html>
